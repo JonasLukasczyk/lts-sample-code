@@ -1,0 +1,14 @@
+#!/usr/bin/gnuplot
+
+set terminal epslatex  size 20cm, 10cm  
+set xtics 10
+set grid xtics ytics lt rgb "#c8c8c8", lt rgb "#c8c8c8"
+set output "plotRandomSimplification.tex"
+set xlabel "Percentage of removed extrema"
+set ylabel "Time (s.)"
+plot "performance_randomSimplification.csv" \
+  using 1:2 with lines lw 20 lt rgb "#777777" \
+  title "Baseline \\cite{tierny_vis12}", \
+  "performance_randomSimplification.csv" using 1:3 with lines lw 20  lt rgb "#a6103a" title "LTS-1", \
+  "performance_randomSimplification.csv" using 1:4 with lines lw 20  lt rgb "#f27d00" title "LTS-xx",
+unset output

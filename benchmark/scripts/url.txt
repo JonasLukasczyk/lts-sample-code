@@ -1,0 +1,7 @@
+http://cdn.klacansky.com/open-scivis-datasets/foot/foot_256x256x256_uint8.raw
+http://cdn.klacansky.com/open-scivis-datasets/silicium/silicium_98x34x34_uint8.raw
+http://cdn.klacansky.com/open-scivis-datasets/backpack/backpack_512x512x373_uint16.raw
+http://cdn.klacansky.com/open-scivis-datasets/tacc_turbulence/tacc_turbulence_256x256x256_float32.raw
+https://github.com/topology-tool-kit/ttk-data/raw/dev/cells.vti
+https://github.com/topology-tool-kit/ttk-data/raw/dev/jet.vti
+https://github.com/topology-tool-kit/ttk-data/raw/dev/oceanVortices.vtu
